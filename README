@@ -1,0 +1,23 @@
+This application can be used to monitor the status of your Continuous Integration builds in "Hudson":https://hudson.dev.java.net/
+
+h3. Current functions:
+
+* None
+
+h3. TODO:
+* All
+
+h2. Installation
+
+* Rails 2.3.2.1
+* Cucumber 0.3.11
+* Nifty_generators 0.2.4
+* ci_reporter 1.6.0
+* webrat 0.4.3
+* rspec 1.2.2
+* rspec-rails 1.2.2
+
+h2. Credits
+
+* **Jeroen Knoops** - Developer
+
