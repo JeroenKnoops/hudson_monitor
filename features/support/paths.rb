@@ -10,6 +10,9 @@ module NavigationHelpers
     
     when /the homepage/
       '/'
+    when /the project dashboard/
+      '/'  
+    
     
     # Add more mappings here.
     # Here is a more fancy example:
