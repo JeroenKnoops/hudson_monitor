@@ -79,3 +79,19 @@ a {
   font-size: 12px;
   list-style: disc;
 }
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
