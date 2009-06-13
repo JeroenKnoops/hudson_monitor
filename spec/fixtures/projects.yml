@@ -2,12 +2,12 @@
 
 one:
   name: MyString
-  last_build: 1
-  last_failure: 1
-  last_successful: 1
+  last_build_id: 1
+  last_failure_id: 1
+  last_successful_id: 1
 
 two:
   name: MyString
-  last_build: 1
-  last_failure: 1
-  last_successful: 1
+  last_build_id: 1
+  last_failure_id: 1
+  last_successful_id: 1

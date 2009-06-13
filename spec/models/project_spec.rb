@@ -5,7 +5,7 @@ describe Project do
     @valid_attributes = {
       :name => "value for name",
       :last_build_id => 1,
-      :last_failure => 1,
+      :last_failure_id => 1,
       :last_successful_id => 1
     }
   end
