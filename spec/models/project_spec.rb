@@ -13,4 +13,15 @@ describe Project do
   it "should create a new instance given valid attributes" do
     Project.create!(@valid_attributes)
   end
+  
+  it "should load Projects from the given location" do
+    Project.load("spec/data/cc.xml")
+    
+    results = [ {:name => "Gynzy", :state => "Success"},
+                {:name => "Synthlijst.nl", :state => "Success"} ]
+                
+    results.each do |result|
+      Project.find_by_name_and_state(result[:name], result[:state]).should_not be_blank
+    end  
+  end
 end
