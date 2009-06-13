@@ -3,3 +3,7 @@ Given /^the following (.+) records?$/ do |factory,table|
     Factory(factory, hash)
   end
 end
+
+Then /^I should see "([^\"]*)" in (.+)$/ do |project,color|
+  response.should contain(project)
+end
