@@ -1,21 +1,10 @@
 <% title "Projects" %>
 
 <table>
+<% for project in @projects %>
   <tr>
-    <th>Name</th>
-    <th>Last Build</th>
-    <th>Last Failure</th>
-    <th>Last Successful</th>
-    <th>State</th>
+    <td><%= display_coloured_cell(project)%></td>
   </tr>
-  <% for project in @projects %>
-    <tr>
-      <td><%=h project.name %></td>
-      <td><%=h project.last_build_id %></td>
-      <td><%=h project.last_failure_id %></td>
-      <td><%=h project.last_successful_id %></td>
-      <td><%=h project.state %></td>
-    </tr>
   <% end %>
 </table>
 

@@ -6,9 +6,9 @@ Feature: Show Projects Dashboard
   Scenario Outline: Show successful, failed, unstable Projects
     Given the following project records
       | name           | state      |
-      | hudson_monitor | successful |
-      | synthlijst.nl  | unstable   |
-      | gynzy.com      | failed     |
+      | hudson_monitor | Success    |
+      | synthlijst.nl  | Unstable   |
+      | gynzy.com      | Failure    |
     And I am on the project dashboard
     Then I should see "<project>" in <color>
 

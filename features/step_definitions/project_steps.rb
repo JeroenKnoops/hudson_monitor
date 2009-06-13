@@ -5,5 +5,5 @@ Given /^the following (.+) records?$/ do |factory,table|
 end
 
 Then /^I should see "([^\"]*)" in (.+)$/ do |project,color|
-  response.should contain(project)
+  response.should have_selector("span", :class => color, :content => project)
 end
